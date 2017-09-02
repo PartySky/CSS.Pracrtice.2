@@ -144,7 +144,7 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-.carousel-inner > .item {
+.our_team_item {
   background: #070707;
   height: 498px;
 }
@@ -220,6 +220,9 @@ body {
   padding-right: 23px;
   color: #fff;
   width: 120px;
+}
+.carousel-indicators {
+  bottom: 86px;
 }
 .carousel-indicators li {
   border-radius: 0px;
@@ -318,6 +321,43 @@ body {
 .our_services_section h3 {
   margin-top: 24px;
   text-transform: uppercase;
+}
+.our_clients_logo {
+  text-align: center;
+}
+.our_clients_item {
+  background: #070707;
+  height: 288px;
+}
+.our_clients_carosel_row {
+  max-width: 971px;
+}
+.our_clients_carosel_row > div {
+  text-align: center;
+}
+.our_clients_carosel_row .image_wrapper {
+  padding-top: 30px;
+}
+.our_clients_carosel_row .devided_by_5 {
+  width: 20%;
+}
+.our_clients_carosel_row h3 {
+  font-family: OpenSansBold;
+  font-size: 20px;
+  margin-top: 16px;
+  margin-bottom: 0px;
+  color: #fff;
+}
+.our_clients_carosel_row h4 {
+  font-family: OpenSansRegular;
+  font-size: 16px;
+  color: #fff;
+}
+.our_clients_carosel_row p {
+  margin-top: 22px;
+  font-size: 14px;
+  font-family: OpenSansRegular;
+  line-height: 25px;
 }
 .starter-template {
   padding: 40px 15px;
