@@ -3,10 +3,21 @@
 body {
     padding-top: 50px;
 }
-
+@font-face {
+    font-family: OpenSansRegular;
+    src: url(../fonts/OpenSans-Regular.ttf);
+}
+@font-face {
+    font-family: OpenSansSemibold;
+    src: url(../fonts/OpenSans-Semibold.ttf);
+}
 @font-face {
     font-family: OpenSansBold;
     src: url(../fonts/OpenSans-Bold.ttf);
+}
+@font-face {
+    font-family: OpenSansItalic;
+    src: url(../fonts/OpenSans-Italic.ttf);
 }
 @font-face {
     font-family: OpenSansLight;
@@ -18,7 +29,7 @@ body {
 }
 body {
 // font-family: OpenSansBold, 'Comic Sans MS', cursive;
-    font-family: OpenSansBold;
+    font-family: OpenSansRegular;
 }
 
 .fixed_section{
@@ -43,6 +54,88 @@ body {
     margin-top: 700px;
 }
 
+.about_us_section{
+    background: #fff;
+position: relative;
+background-image: url(../Images/mac2.png);
+background-position: center;
+background-position-y: 102px;
+background-repeat: no-repeat;
+height: 611px;
+}
+
+.about_us_section_content {
+    padding-top: 77px;
+    padding-left: 112px;
+    padding-right: 160px;
+    h1{
+        font-size: 34px;
+        color: #111;
+        font-family: OpenSansRegular;
+        text-transform: uppercase;
+        margin-top: 8px;
+        margin-bottom: 14px;
+    }
+    h1 span{
+        font-family: OpenSansBold;
+    }
+    h3{
+        font-size: 20px;
+        color: #636363;
+        font-family: OpenSansRegular;
+        text-transform: uppercase;        
+    }
+    p{
+        font-size: 18px;
+        color: #6c6c6c;
+        margin-top: 25px;
+        margin-bottom: 38px;      
+    }
+    a, a:hover {
+        text-transform: uppercase;
+        border: 1px solid #7f7f7f;
+        font-size: 12px;
+        padding: 14px;
+        padding-left: 22px;
+        padding-right: 38px;
+        border-radius: 3px;
+        color: #616161;
+        text-decoration: none;
+    }
+    a>img{
+        padding-bottom: 5px;
+        margin-right: 4px;
+    }
+}
+
+.about_us_list{
+    font-size: 16px;
+    color: #5a5a5a;
+    font-family: OpenSansItalic;
+    margin-bottom: 59px;
+    p{
+        margin-top: 5px;
+        margin-bottom: 9px;  
+    }    
+    img {
+        margin-right: 9px;
+        padding-bottom: 3px
+    }
+    span{
+        font-size: 18px;
+        color: #5a5a5a;
+        font-family: OpenSansSemibold;
+    }
+}
+
+.h1_dash{
+    background: #fcac45;
+    height: 4px;
+    width: 104px
+}
+
+// old styles
+
 .starter-template {
     padding: 40px 15px;}
 
@@ -66,25 +159,21 @@ body {
 
 h1 {
     font-size: 76px;
-    font-family: 'Roboto', sans-serif;
     font-weight: 300;
 }
 
 h2 {
     font-size: 46px;
-    font-family: 'Roboto', sans-serif;
     font-weight: 100;
 }
 
 p {
     font-size: 16px;
-    font-family: 'Roboto', sans-serif;
     font-weight: 400;
 }
 
 a {
     font-size: 16px;
-    font-family: 'Roboto', sans-serif;
     font-weight: 400;
 }
 
@@ -329,7 +418,6 @@ a {
 .more_portfolio a {
     color: #9699a6;
     font-size: 16px;
-    font-family: 'Roboto', sans-serif;
     font-weight: 400;
 }
 
@@ -580,7 +668,6 @@ a.right.carousel-control span {
 .footer p {
     color: #9699a6;
     font-size: 14px;
-    font-family: 'Roboto', sans-serif;
     font-weight: 300;
     line-height: 24px;
 }
@@ -606,7 +693,6 @@ a.right.carousel-control span {
 
 .footer_twitter_widget_content p {
     font-size: 14px;
-    font-family: 'Roboto', sans-serif;
     font-weight: 300;
 }
 
@@ -652,7 +738,6 @@ a.right.carousel-control span {
     outline: none;
     color: #9699a6;
     font-size: 16px;
-    font-family: 'Roboto', sans-serif;
     font-weight: 300;
     padding-bottom: 13px;
     padding-top: 20px;
@@ -688,7 +773,6 @@ a.right.carousel-control span {
     margin-right: auto;
     background: #222629;
     font-size: 14px;
-    font-family: 'Roboto', sans-serif;
     font-weight: 300;
 }
 
