@@ -244,13 +244,16 @@ body {
 .white_section {
   text-align: center;
   padding-top: 70px;
+  display: block;
+  position: relative;
+  padding-bottom: 10px;
 }
 .black_section h1,
 .white_section h1 {
   text-transform: uppercase;
   font-size: 44px;
   font-family: OpenSansLight;
-  padding-bottom: 15px;
+  padding-bottom: 14px;
 }
 .black_section h1 > span,
 .white_section h1 > span {
@@ -266,9 +269,9 @@ body {
   margin-left: auto;
   margin-right: auto;
   background: #fcac45;
-  margin-top: 12px;
+  margin-top: 10px;
   margin-bottom: 39px;
-  opacity: 0.5;
+  opacity: 0.7;
   height: 4px;
   width: 67px;
 }
@@ -284,6 +287,37 @@ body {
 .white_section {
   background: #fff;
   color: #222222;
+}
+.our_services_section {
+  height: 736px;
+}
+.our_services_section p {
+  font-family: OpenSansItalic;
+  color: #6c6c6c;
+  font-size: 16px;
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.our_services_section .row {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 58px;
+}
+.our_services_section .row > div {
+  text-align: center;
+}
+.our_services_section .image_wrapper {
+  padding-top: 45px;
+}
+.our_services_section .image_wrapper_p {
+  font-size: 14px;
+  font-family: OpenSansRegular;
+}
+.our_services_section h3 {
+  margin-top: 24px;
+  text-transform: uppercase;
 }
 .starter-template {
   padding: 40px 15px;
