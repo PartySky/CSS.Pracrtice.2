@@ -453,6 +453,28 @@ div[data-cat="c"] {
   margin-top: 24px;
   text-transform: uppercase;
 }
+.testimonials_item {
+  text-align: center;
+  background: #070707;
+  height: 334px;
+}
+.testimonials_item h3 {
+  font-family: OpenSansSemibold;
+  color: #e7e7e7;
+  font-size: 18px;
+  text-transform: uppercase;
+  line-height: 23px;
+  margin-top: 51px;
+  margin-bottom: 41px;
+}
+.testimonials_item p {
+  font-family: OpenSansLight;
+  color: #b2b2b2;
+  font-size: 18px;
+}
+.testimonials_item p > span {
+  font-family: OpenSansSemibold;
+}
 .starter-template {
   padding: 40px 15px;
 }
