@@ -28,26 +28,26 @@
                 </button>
                 <a class="navbar-brand" href="#"><img src="Images/logo.png"></a>
             </div>
-            <div class="navbar-collapse collapse" style="height: 1px;">
+            <div class="navbar-collapse collapse bs-docs-sidebar" style="height: 1px;">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Home</a></li>
-                    <li><a href="#pages">Pages</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#vacancies">Vacancies</a></li>
-                    <li><a href="#blog">Blog</a></li>
-                    <li><a href="#contacts">Contacts</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                    <li><a href="#Testimonials">Testimonials</a></li>
+                    <li><a href="#Contact">Contact</a></li>
                 </ul>
             </div>
         </div>
     </div>
     <div class="container" style="top:128px; position:absolute;">
         <!-- Fixed section -->
-        <div class="fixed_section">
+        <div id="Home" class="fixed_section">
             <h1>WELCOME on <span>spirit8</span></h1>
             <p>We are a digital agency with <span>years of experience</span> and with <span>extraordinary people</span></p>
         </div>
         <!-- About us -->
-        <div class="row about_us_section">
+        <div id="About" class="row about_us_section">
             <div class="col-lg-6"></div>
             <div class="col-lg-6 about_us_section_content">
                 <h3>About us</h3>
@@ -65,7 +65,7 @@
             </div>
         </div>
         <!-- Meet Our Team -->
-        <div class="Our_Team_Header black_section">
+        <div id="GroupB" class="Our_Team_Header black_section">
             <h1>Meet <span>Our Team</span></h1>
             <div class="h1_dash"></div>
             <div class="h1_dash_pale"></div>
@@ -177,7 +177,7 @@
             </a>
         </div>
         <!-- Our Services -->
-        <div class="our_services_section white_section">
+        <div id="Services" class="our_services_section white_section">
             <h1>take a look at <span>our services</span></h1>
             <div class="h1_dash"></div>
             <div class="h1_dash_pale"></div>
@@ -310,7 +310,7 @@
             </a>
         </div>
         <!-- Our Works -->
-        <div class="our_works_section white_section">
+        <div id="Portfolio" class="our_works_section white_section">
             <h1>take a look at <span>our works</span></h1>
             <div class="h1_dash"></div>
             <div class="h1_dash_pale"></div>
@@ -348,7 +348,7 @@
             </div>
         </div>
         <!-- Our Client's Testimonials -->
-        <div class="Our_Team_Header black_section">
+        <div id="Testimonials" class="Our_Team_Header black_section">
             <h1><span>Our Client's</span> Testimonials</h1>
             <div class="h1_dash"></div>
             <div class="h1_dash_pale"></div>
@@ -398,7 +398,7 @@
             </a>
         </div>
         <!-- Contacts Us -->
-        <div class="our_works_section contact_us_section white_section">
+        <div id="Contact" class="our_works_section contact_us_section white_section">
             <h1>Fell free to <span>contacts us</span></h1>
             <div class="h1_dash"></div>
             <div class="h1_dash_pale"></div>
@@ -407,8 +407,8 @@
             <div class="row">
                 <form>
                     <div class="form-group half_width_left">
-                        <label for="pwd">Password: <span>*</span></label>
-                        <input type="password" class="form-control" id="pwd">
+                        <label for="name">Name: <span>*</span></label>
+                        <input type="text" class="form-control" id="name">
                     </div>
                     <div class="form-group half_width_right">
                         <label for="email">Email address: <span>*</span></label>
@@ -423,15 +423,35 @@
             </div>
         </div>
         <!-- Copyright -->
-        <div class="copyright">
-            <div>
-                <img src="Images/copyright.png"> © 2015 Design Studio <span>Globals</span> / Designed by <span>ThemeFire</span> / Only for <span>Envato Market</span>
+        <div class="copyright_wrapper">
+            <div class="copyright">
+                <div class="copyright_text">
+                    ALL RIGHTS RESERVED. COPYRIGHT © 2014 <span>SPIRIT8</span>
+                </div>
+                <div class="copyright_social">
+                    <a href="#">
+                        <img src="Images/social_fb.png">
+                    </a>
+                    <a href="#">
+                        <img src="Images/social_tw.png">
+                    </a>
+                    <a href="#">
+                        <img src="Images/social_gg.png">
+                    </a>
+                    <a href="#">
+                        <img src="Images/social_ln.png">
+                    </a>
+                    <a href="#">
+                        <img src="Images/social_dr.png">
+                    </a>
+                </div>
             </div>
         </div>
     </div>
     <script src="js/jquery-1.10.2.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/portfolio.js"></script>
+    <script src="js/scrollspy.js"></script>
 
 
 </body>
