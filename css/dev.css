@@ -15,6 +15,10 @@ body {
   src: url(../fonts/OpenSans-Bold.ttf);
 }
 @font-face {
+  font-family: OpenSansSemibold;
+  src: url(../fonts/OpenSans-Semibold.ttf);
+}
+@font-face {
   font-family: OpenSansItalic;
   src: url(../fonts/OpenSans-Italic.ttf);
 }
@@ -358,6 +362,96 @@ body {
   font-size: 14px;
   font-family: OpenSansRegular;
   line-height: 25px;
+}
+#portfolio {
+  width: 100%;
+  max-width: 1170px;
+  margin: 2em auto;
+}
+.portfolio-sort {
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 51px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.portfolio_filter_header {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-family: OpenSansSemibold;
+  float: left;
+}
+.portfolio_filter_types {
+  text-align: right;
+  font-size: 18px;
+  color: #6c6c6c;
+}
+.portfolio_filter_types span {
+  cursor: pointer;
+}
+#portfolio-sort a {
+  color: #fff;
+  background: #a00;
+  display: inline-block;
+  padding: 3px 9px;
+  text-decoration: none;
+  margin-right: 1em;
+}
+#portfolio-content {
+  overflow: hidden;
+}
+div.portfolio-item {
+  float: left;
+  margin-left: 1.2%;
+  margin-right: 1.2%;
+  width: 22.6%;
+  margin-bottom: 29px;
+  line-height: 10;
+  text-align: center;
+}
+div[data-cat="a"] {
+  background: #ccc;
+}
+div[data-cat="b"] {
+  background: #666;
+  color: #fff;
+}
+div[data-cat="c"] {
+  background: #333;
+  color: #fff;
+}
+.our_works_section {
+  min-height: 736px;
+  padding-bottom: 42px;
+}
+.our_works_section p {
+  font-family: OpenSansItalic;
+  color: #6c6c6c;
+  font-size: 16px;
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.our_works_section .row {
+  max-width: 1174px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 58px;
+}
+.our_works_section .row > div {
+  text-align: center;
+}
+.our_works_section .image_wrapper {
+  padding-top: 45px;
+}
+.our_works_section .image_wrapper_p {
+  font-size: 14px;
+  font-family: OpenSansRegular;
+}
+.our_works_section h3 {
+  margin-top: 24px;
+  text-transform: uppercase;
 }
 .starter-template {
   padding: 40px 15px;
