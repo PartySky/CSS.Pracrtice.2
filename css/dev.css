@@ -363,6 +363,9 @@ body {
   font-family: OpenSansRegular;
   line-height: 25px;
 }
+.our_clients_carosel_row_text > span {
+  font-family: OpenSansSemibold;
+}
 #portfolio {
   width: 100%;
   max-width: 1170px;
@@ -474,6 +477,60 @@ div[data-cat="c"] {
 }
 .testimonials_item p > span {
   font-family: OpenSansSemibold;
+}
+.contact_us_section p {
+  max-width: 752px;
+}
+.contact_us_section form {
+  text-align: left;
+  max-width: 752px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 8px;
+  padding-bottom: 111px;
+}
+.contact_us_section .half_width_left {
+  width: 48%;
+  float: left;
+}
+.contact_us_section .half_width_right {
+  width: 48%;
+  float: right;
+}
+.contact_us_section label {
+  color: #636363;
+  font-family: OpenSansRegular;
+  font-size: 14px;
+  font-weight: normal;
+}
+.contact_us_section input,
+.contact_us_section textarea {
+  border-radius: 0px;
+  border: 1px solid #999999;
+}
+.contact_us_section input {
+  height: 42px;
+}
+.contact_us_section textarea {
+  min-height: 166px;
+}
+.contact_us_section .textarea {
+  padding-top: 102px;
+}
+.contact_us_section button {
+  float: right;
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  background: #fcac45;
+  padding-left: 62px;
+  padding-right: 62px;
+  border: none;
+  border-radius: 0px;
+  margin-top: 16px;
+}
+.contact_us_section label > span {
+  color: #db0000;
 }
 .starter-template {
   padding: 40px 15px;
